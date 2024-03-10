@@ -1,0 +1,106 @@
+Reset some default styles
+body,h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url("27057.jpg"); */
+    /* background-image: linear-gradient(to right bottom, #4be98e, #00dcc3, #00c9f2, #00b0ff, #008fff, #008efe, #008efd, #008dfc, #00aeff, #00cbff, #00e4fc, #5ffbf1); */
+    background-color: #b6f1f7;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    
+}
+
+/* Sidebar styles */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222121;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 40px;
+}
+
+.sidebar li {
+    margin-bottom: 40px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Page Content styles */
+.content {
+    margin-left: 250px;
+    padding: 25px;
+}
+
+.control1{
+    
+    display: flex;
+    display: inline;
+
+    padding: 7px;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.aa{
+    margin-top: 180px;
+    margin-left: 250px;
+}
+label{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+    font-family: 'Syne', sans-serif;
+    margin-top: 0px;
+    font-size: 50px;
+    margin-left: 250px;
+    background-color: rgb(18, 149, 243);
+}
+
+.btn{
+    text-align: center;
+    border-style: none;
+    background-color: rgb(18, 149, 243);
+     width: 90px;
+     height: 35px;
+     border-radius: 4px;
+     font-family: 'Raleway', sans-serif;
+     font-size: 17px;
+    
+}
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
